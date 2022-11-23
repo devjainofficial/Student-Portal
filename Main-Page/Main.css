@@ -7,6 +7,29 @@
 body{
     font-family: 'Josefin Sans', sans-serif;
     background-color:#21397d;
+    overflow-y: scroll; /* Show vertical scrollbar */
+    overflow-x: hidden; /* Show horizontal scrollbar */
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+ 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #0d1637; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #0d1637c2; 
 }
 .hero{
     position: relative;
@@ -516,7 +539,7 @@ footer{
 .footer-bottom{
     background: #000;
     height: 20px;
-    width: 84.3rem;
+    width: 84.8rem;
     margin: -30px;
     padding: 10px;
     padding-bottom: 50px;
