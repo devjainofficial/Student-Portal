@@ -1,4 +1,4 @@
-<%-- 
+<%--
     Document   : login
     Created on : 23-Nov-2022, 3:42:49 pm
     Author     : Lenovo
@@ -104,7 +104,7 @@ input[type="submit"]:hover{
 </style>
 </head>
 
-    
+
  <div class="log">
      <form action="<%=request.getContextPath()%>/login" method="post">
                 <div class="txt" name="username">
@@ -122,8 +122,6 @@ input[type="submit"]:hover{
             <input type="submit" value="Submit"/>
      </form>
 </div>
-        
+
 
 </html>
-
-
