@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>DR University</title>
+  <link rel = "icon" href ="DR_logo_top.png" type = "image/x-icon">
+  <link rel='stylesheet' href='https://unpkg.com/css-pro-layout@1.1.0/dist/css/css-pro-layout.css'>
+<link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css'><link rel="stylesheet" href="./style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://kit.fontawesome.com/a076d05399.js"></script>
+<script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+</head>
+<body>
+  <div class="popup">
+    <button id="close">&times;</button>
+    <div class="card">
+      <div class="content">
+          <div class="user"><img src="Card-img.jpg" alt=""></span></div>
+          <header>Rohit Mundra</header>
+          <div class="card-info">
+            Enrollment No.: 92000103131 <br>
+            Email: rohit.mundra111033@druniversity.ac.in <br>
+            DOB: 23/09/2002 <br>
+            Course: MBBS
+          </div>
+      <div class="card-footer">DR University</div>
+      </div>
+    </div>
+  </div>
+<div class="layout has-sidebar fixed-sidebar fixed-header">
+  <aside id="sidebar" class="sidebar break-point-lg has-bg-image">
+    <div class="image-wrapper">
+      <img src="NavBg.jpg" alt="sidebar background" />
+    </div>
+    <div class="sidebar-layout">
+      <div class="sidebar-header">
+        <span class="sidebar-header">
+            <i class="ri-building-2-fill"></i>
+        </span>
+        <span style="
+                text-transform: uppercase;
+                font-size: 15px;
+                letter-spacing: 3px;
+                font-weight: bold;
+              ">DR University</span>
+      </div>
+      <div class="sidebar-content">
+        <nav class="menu open-current-submenu">
+          <ul>
+            <li class="menu-item">
+                <a href="#">
+                  <span class="menu-icon">
+                    <i class="ri-dashboard-fill"></i>
+                  </span>
+                  <span class="menu-title">Dashboard</span>
+                </a>
+              </li>
+              <li class="menu-item">
+                <a href="#">
+                  <span class="menu-icon">
+                    <i class="ri-book-2-fill"></i>
+                  </span>
+                  <span class="menu-title">Academics</span>
+                </a>
+              </li>
+              <li class="menu-item">
+                <a href="#">
+                  <span class="menu-icon">
+                    <i class="ri-notification-2-fill"></i>
+                  </span>
+                  <span class="menu-title">Notices</span>
+                </a>
+              </li>
+              <li class="menu-item">
+                <a href="#">
+                  <span class="menu-icon">
+                    <i class="ri-star-fill"></i>
+                  </span>
+                  <span class="menu-title">Faculty Rating</span>
+                </a>
+              </li>
+              <li class="menu-item">
+                <a href="#">
+                  <span class="menu-icon">
+                    <i class="ri-calendar-2-fill"></i>
+                  </span>
+                  <span class="menu-title">Academic Calender</span>
+                </a>
+              </li>
+              <li class="menu-item">
+              <a href="#">
+                <span class="menu-icon">
+                  <i class="ri-calendar-event-fill"></i>
+                </span>
+                <span class="menu-title">Holiday List</span>
+              </a>
+            </li>
+            <li class="menu-item sub-menu">
+              <a href="#">
+                <span class="menu-icon">
+                  <i class="ri-book-2-fill"></i>
+                </span>
+                <span class="menu-title">Exams</span>
+              </a>
+              <div class="sub-menu-list">
+                <ul>
+                  <li class="menu-item">
+                    <a href="#">
+                      <span class="menu-title">Mid Sememster</span>
+                    </a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="#">
+                      <span class="menu-title">Final Examination</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="menu-item sub-menu">
+              <a href="#">
+                <span class="menu-icon">
+                  <i class="ri-admin-line"></i>
+                </span>
+                <span class="menu-title">Placements</span>
+              </a>
+              <div class="sub-menu-list">
+                <ul>
+                  <li class="menu-item">
+                    <a href="#">
+                      <span class="menu-title">Dark</span>
+                    </a>
+                  </li>
+                  <li class="menu-item">
+                    <a href="#">
+                      <span class="menu-title">Light</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </li>
+            <li class="menu-item">
+              <a href="#">
+                <span class="menu-icon">
+                  <i class="ri-book-2-fill"></i>
+                </span>
+                <span class="menu-title">Documentation</span>
+              </a>
+            </li>
+            <li class="menu-item">
+              <a href="#">
+                <span class="menu-icon">
+                  <i class="ri-calendar-fill"></i>
+                </span>
+                <span class="menu-title">Calendar</span>
+              </a>
+            </li>
+            <li class="menu-item">
+              <a href="#">
+                <span class="menu-icon">
+                  <i class="ri-service-fill"></i>
+                </span>
+                <span class="menu-title">Attendance</span>
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="sidebar-footer"><span><a href="#">Student Profile</a></span></div>
+    </div>
+  </aside>
+  <div id="overlay" class="overlay"></div>
+  <div class="layout">
+    <header class="header">
+      <a id="btn-collapse" href="#">
+        <i class="ri-menu-line ri-xl"></i>
+      </a>
+      <a id="btn-toggle" href="#" class="sidebar-toggler break-point-lg">
+        <i class="ri-menu-line ri-xl"></i>
+      </a>
+      
+    </header>
+  
+      <main class="content">
+        <div class="slideshow-container">
+
+          <div class="mySlides">
+            <div class="numbertext">1 / 3</div>
+            <img src="slideshow1-3.jpg" alt="DR University" style="width:100%">
+            <div class="text">Universal Students</div>
+          </div>
+          
+          <div class="mySlides">
+            <div class="numbertext">2 / 3</div>
+            <img src="slideshow2-3.jpg" alt="DR University" style="width:100%">
+            <div class="text">Caption Two</div>
+          </div>
+          
+          <div class="mySlides">
+            <div class="numbertext">3 / 3</div>
+            <img src="slideshow3-3.jpg" alt="DR University" style="width:100%">
+            <div class="text">Caption Three</div>
+          </div>
+          
+        </div>
+          <br>
+          <div style="text-align:center">
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+            <span class="dot"></span> 
+          </div>
+        <div>
+
+        </div>
+        <div>
+
+        </div>
+        
+        
+      <footer class="footer">
+          <h3>DR University</h3>
+      <p>1 University Rd, Ahmedabad, Gujarat
+          <br>
+          Phone : +91 62615 18514
+          <ul class="socials">
+            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+            <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+            <li><a href="#"><i class="fa fa-linkedin-square"></i></a></li>
+         </ul>
+         
+         <div class="footer-bottom">
+          <p>copyright &copy;2022 <a href="#">DR University</a></p>
+          <div class="footer-menu">
+              <ul class="f-menu">
+                 <li><a href="">Home</a></li>
+                 <li><a href="">About</a></li>
+                 <li><a href="">Contact</a></li>
+                 <li><a href="">Blog</a></li>
+              </ul>
+             </div>
+      </footer>
+    </main>
+  </div>  
+</div>
+  <script src='https://unpkg.com/@popperjs/core@2'></script><script  src="./script.js"></script>
+
+</body>
+</html>

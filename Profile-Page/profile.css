@@ -1,0 +1,45 @@
+:root {
+    --app-blue: #0244CF;
+    --app-item-bg: #DCE0E9;
+  } 
+  
+  header {
+    background: var(--app-blue); 
+    border-bottom-left-radius: 10%; 
+    border-bottom-right-radius: 10%; 
+  }
+  body{
+    overflow-y: scroll; /* Show vertical scrollbar */
+    overflow-x: hidden; /* Show horizontal scrollbar */
+}
+  
+  main {
+    /* width of main is  83.33% 5/6 of the screen width */
+    left: calc((100% - 83.33%)/2);
+    top: 40%;
+  }
+  
+  .item-cta {
+    background: var(--app-item-bg);
+  }
+  /* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+ 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #0d1637; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #0d1637c2; 
+}
