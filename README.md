@@ -1,3 +1,4 @@
+<h1>Creators of the project:</h1> <h2>Rohit Mundra & Dev Jain</h2>
 <h1 align='center'>Student-Portal</h1>
 
 ### About 👇
