@@ -1,5 +1,6 @@
-<h1>Creators of the project:</h1> <h2>Rohit Mundra & Dev Jain</h2>
-<h1 align='center'>Student-Portal</h1>
+<h2>Creators of the project: Rohit Mundra & Dev Jain</h2>
+
+<h3>Student-Portal</h3>
 
 ### About 👇
 This is a web based student portal use to interact with student and provide needed information.
